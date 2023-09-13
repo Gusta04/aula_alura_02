@@ -119,6 +119,8 @@ body{
 .rodape{
     color: var(--cor_principal);
     text-align: center;
+    width: 75em;
+    margin: auto;
 }
 
 .rodape__logo{
@@ -127,11 +129,25 @@ body{
 
 .rodape__lista{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
+    font-size: 1em;
+    gap: 1em;
+    margin-bottom: 1.5em;
 }
 
 .rodape__lista--link a{
     color: var(--cor_principal);
     text-decoration: none;
+}
+
+.rodape__lista--link a:hover{
+    color: var(--cor_terciaria)
+}
+
+
+.rodape__texto{
+    font-size: 0.875em;
+    color: var(--cor_secundaria);
+    margin-bottom: 1.5em;
 }
